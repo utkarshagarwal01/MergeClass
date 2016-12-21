@@ -18,7 +18,6 @@ Node* getNode()
 
 Node* insertCircleList(Node* h,char x)
 {
-    //printf("inside");
     Node* t=h->link,*prev=h,*newnode;
     while(t!=h && t->item<x)
     {
